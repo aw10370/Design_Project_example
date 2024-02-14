@@ -17,6 +17,7 @@ end
 # ╔═╡ a4aa940e-84c8-483e-a1d5-6fa235ed39b6
 begin
 	import Pkg; Pkg.activate()
+	Pkg.add(["JuMP", "PlutoUI", "Graphs", "GraphMakie", "CairoMakie", "MetaGraphsNext", "HiGHS"])
 	using JuMP, PlutoUI, Graphs, GraphMakie, CairoMakie, MetaGraphsNext, HiGHS
 end
 
@@ -532,8 +533,8 @@ end
 
 
 # ╔═╡ Cell order:
-# ╟─a4aa940e-84c8-483e-a1d5-6fa235ed39b6
-# ╟─299ada83-58d2-4bb3-ac21-dd7ce9e3b462
+# ╠═a4aa940e-84c8-483e-a1d5-6fa235ed39b6
+# ╠═299ada83-58d2-4bb3-ac21-dd7ce9e3b462
 # ╟─f60668bc-85c5-4812-bcbb-573adb218956
 # ╟─55d53dc9-e6d0-4d2e-b22f-2604675be3bb
 # ╟─e629e32a-c69d-4e50-a8e4-27c134af82c2
